@@ -64,12 +64,12 @@
             <a href="https://www.github.com/abbishekprabhu" target="_blank"><img src="images/github.png" alt="GitHub" draggable="false" /></a>
             <a href="https://www.instagram.com/abbishekprabhu" target="_blank"><img src="images/instagram.png" alt="Instagram" draggable="false" /></a>
             <a href="https://www.x.com/abbishekoffl" target="_blank"><img src="images/x-twitter.png" alt="x-twitter" draggable="false" /></a>
-            <a href="" id="whatsapp" target="_blank"><img src="images/whatsapp.png" alt="whatsapp" draggable="false" /></a>
+            <a href="#" id="whatsapp" target="_blank"><img src="images/whatsapp.png" alt="whatsapp" draggable="false" /></a>
         </div>
         <p class="prev-exp">Founder & CEO <a href="https://eventualhq.netlify.app/" target="_blank">@ Eventual</a> | Ex - <a href="https://bioinnovationcentre.com/en" target="_blank" rel="noopener noreferrer">BBC</a> | MCA <a href="https://vit.ac.in/" target="_blank">@ VIT'26</a> | Actor | Ex - <span> Alpha & Omega Productions</span> | Ex - <a href="https://www.abbishek.in/" target="_blank">abbishek</a> | BCA <a href="https://gimsedu.in/">@ GIMS'22</a></p>
         <div class="main-contact-links">
-            <a href="#"><img src="images/resume.png" alt="Resume"><p>View Résumé</p></a>
-            <a href="mailto:abbishekinchrist01@gmail.com" target="_blank"><img src="images/gmail.png" alt="Gmail"><p>Let’s Talk</p></a>
+            <a href="Abbishek_Resume_Updated_23052026.pdf" target="_blank"><img src="images/resume.png" alt="Resume"><p>View Résumé</p></a>
+            <a href="#" id="gmail" target="_blank"><img src="images/gmail.png" alt="Gmail"><p>Let’s Talk</p></a>
         </div>
     </section>
     <section class="boxed-up second-section">
@@ -286,5 +286,32 @@
 
     });
 </script>
+<script>
+        const whatsappButton = document.getElementById("whatsapp"),
+    gmailButton = document.getElementById("gmail"),
+    whatsappNumber = "+919611631086",
+    whatsappText = "Hi Abbishek, I am",
+    gmailAddress = "abbishekpm@gmail.com",
+    gmailSubject = "Job Opportunity in [Your Company Name]",
+    gmailBody = "Hello Abbishek, ";
+whatsappButton.addEventListener("click", function () {
+    let e = `https://wa.me/+919611631086?text=${encodeURIComponent("Hi Abbishek, I am")}`;
+    window.open(e, "_blank");
+}),
+    gmailButton.addEventListener("click", function () {
+        let e = `mailto:abbishekpm@gmail.com?subject=${encodeURIComponent("Job Opportunity in [Your Company Name]")}&body=${encodeURIComponent("Hello Abbishek, ")}`;
+        window.open(e, "_blank");
+    });
+    </script>
+    <script>
+         document.addEventListener("contextmenu", (e) => e.preventDefault()),
+    document.addEventListener("keydown", function (e) {
+        e.ctrlKey && 83 === e.keyCode && e.preventDefault();
+    }),
+    document.addEventListener("keydown", function (e) {
+        e.metaKey && 83 === e.keyCode && e.preventDefault();
+    });
+
+    </script>
 </body>
 </html>
